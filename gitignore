@@ -12,7 +12,7 @@ build/
 ### Gradle ###
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
+
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -44,13 +44,7 @@ build/
 hs_err_pid*
 replay_pid*
 
-./build
-/out
 
-./gradlew.bat
-./gradlew
-gradlew
-gradlew.bat
-
-
-
+# Игнорируем wrapper, если используется системный Gradle
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
