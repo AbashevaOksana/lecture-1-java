@@ -56,7 +56,6 @@ public class Lessons1Java {
             int f = 5;
             int j = 10;
 
-            System.out.println("i = " + i + ", f = " + f + ", j = " + j);
             System.out.println("i < f: " + (i < f));   // false
             System.out.println("i > f: " + (i > f));   // true
             System.out.println("i <= j: " + (i <= j)); // true
